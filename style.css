@@ -24,22 +24,26 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 }
 
 /* Check list styling */
 nav ul {
   display: flex;
   gap: 48px;
+  list-style-type:none ;
+  text-decoration: none;
 }
 
 /* Check list link style */
 nav ul li a {
+  text-decoration: none;
 
 }
 
 /* Make text bold on hover */
 nav ul li a:hover {
-  
+  font-weight: bold;
 }
 
 
@@ -60,6 +64,7 @@ main {
 
 /* Check font styling */
 .text h1 span {
+  color: rgba(137, 197, 204, 1);
 }
 
 /* Check font styling */
@@ -78,16 +83,24 @@ main {
   font-weight: 500;
   font-size: 16px;
   line-height: 20.83px;
-  text-align: center;
+  align-items: center;
   width: 169px;
   height: 56px;
   margin-top: 40px;
   border-radius: 4px;
-  padding: 14px, 32px, 15px, 32px;
+  padding-left: 25px;
+  background: #69B99D;
+  color:#F9F9F9;
+  border-color:white
+
+  ;
+  
+  
 }
 
 /* Handle when user hover on the button */
 .text button:hover {
+  background-color: #4A9A7E;
 }
 
 /* Check the text styling */
