@@ -53,6 +53,9 @@ main {
 /* Check margin and font styling */
 .text h1 {
   font-family: 'Mulish', sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 72px;
 }
 
 /* Check font styling */
@@ -62,6 +65,9 @@ main {
 /* Check font styling */
 .text p {
   font-family: 'Open Sans', sans-serif; 
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25.6px;
 }
 
 /* Check font styling and make sure the button is rounded */
@@ -69,6 +75,15 @@ main {
   font-family: 'Open Sans', sans-serif;
   display: flex;
   gap: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20.83px;
+  text-align: center;
+  width: 169px;
+  height: 56px;
+  margin-top: 40px;
+  border-radius: 4px;
+  padding: 14px, 32px, 15px, 32px;
 }
 
 /* Handle when user hover on the button */
@@ -77,7 +92,9 @@ main {
 
 /* Check the text styling */
 footer {
-  font-family: 'Open Sans', sans-serif; 
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin-bottom: 30px; 
 }
 
 /* Check the text styling */
